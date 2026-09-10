@@ -114,7 +114,7 @@ OpenAI 的收款由 Stripe 处理，**只接受境外发行的 Visa / Mastercard
 |---|---|---|
 | Claude Pro | ¥188 起 | Opus 5、Claude Code（编程首选） |
 | Gemini Pro | ¥178 起 | Gemini 3.1、NotebookLM、大容量云存储 |
-| superGrok | ¥228 起 | Grok 4.6、视频生成 |
+| SuperGrok | ¥228 起 | Grok 4.6、视频生成 |
 
 入口：[Claude 充值](https://ai66.org/claude.html?utm_source=github2) ｜ [Gemini 充值](https://ai66.org/gemini.html?utm_source=github2) ｜ [Grok 充值](https://ai66.org/grok.html?utm_source=github2)
 
