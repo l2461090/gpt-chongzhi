@@ -2,7 +2,18 @@
 
 > 面向国内用户的 **GPT充值 / ChatGPT充值** 参考手册：为什么国内的卡付不了款、五种充值路径的真实成本对比、卡密代充流程与避坑清单、以及 2026 年 9 月刚上线的 OpenAI 官方礼品卡说明。
 >
-> 最近核对：2026-09-10。价格与规则随官方调整变动，以实际页面为准。
+> 最近核对：2026-09-25。价格与规则随官方调整变动，以实际页面为准。
+
+> **非官方声明：** 本仓库是独立的第三方教程整理，与 OpenAI、Anthropic、Google、xAI 不存在隶属、授权或合作关系。ChatGPT、OpenAI 等商标归各自权利人所有。
+>
+> **安全提示：** 任何渠道都不应向你索要 ChatGPT 密码、短信或邮箱验证码、Cookie、Session Token 或 API Key。
+
+**先看结论：**
+
+- 有境外信用卡：直接在官网订阅，最省心。
+- 没有境外卡、不想折腾：选卡密代充，支付宝/微信付款，会员开到你自己的账号，不需要密码。Plus 参考价 ¥178 起/月。
+- 已有订阅没到期：先核对当前套餐和到期时间，不要默认可以叠加。
+- 共享/拼车账号：再便宜也不建议。
 
 ## 目录
 
@@ -60,7 +71,7 @@ OpenAI 的收款由 Stripe 处理，**只接受境外发行的 Visa / Mastercard
 
 判断价格是否合理的两条线：**低于官方价（比如 Plus 卖 ¥100 以下）= 黑卡风险，充完容易封号；高于官方价一倍 = 宰客**。两条线之间的都可以对比着看。
 
-> 参考平台之一：[Ai66.org ChatGPT 充值页](https://ai66.org/chatgpt-plus-chongzhi.html?utm_source=github2)（支付宝/微信直付，自动发卡，失败全额退款，可开增值税普通发票）。
+> 参考平台之一：[Ai66.org ChatGPT 代充](https://ai66.org/?utm_source=github2)（[Plus 充值说明](https://ai66.org/chatgpt-plus-chongzhi?utm_source=github2) · [Codex 会员购买](https://ai66.org/chatgpt?utm_source=github2)）（支付宝/微信直付，自动发卡，失败全额退款，可开增值税普通发票）。
 
 ## 五、卡密代充流程：4 步
 
@@ -71,7 +82,7 @@ OpenAI 的收款由 Stripe 处理，**只接受境外发行的 Visa / Mastercard
 
 失败排查：核对订单与账号 → 检查是否按教程操作 → 记录报错提示 → 凭订单号找平台客服（正规平台失败全额退款）。
 
-完整图文版见：[充值教程](https://ai66.org/jiaocheng.html?utm_source=github2) ｜ [GPT代充指南（方式对比+避坑）](https://ai66.org/gpt-daichong.html?utm_source=github2)
+完整图文版见：[充值教程](https://ai66.org/jiaocheng?utm_source=github2) ｜ [GPT代充指南（方式对比+避坑）](https://ai66.org/gpt-daichong?utm_source=github2)
 
 ## 六、避坑：8 个危险信号
 
@@ -89,10 +100,10 @@ OpenAI 的收款由 Stripe 处理，**只接受境外发行的 Visa / Mastercard
 ## 七、高频问题 FAQ
 
 **Q：卡密充值是什么原理？**
-你付款后获得一串兑换码，自己登录 ChatGPT 在官方充值页输入，会员开在你自己的账号上。全程不需要提供账号密码。
+你付款后获得一串兑换码，按平台教程在它的充值页提交，会员开在你自己的账号上。全程不需要提供账号密码。开通后可以在 ChatGPT 设置里直接看到套餐和续费日期。
 
 **Q：会导致封号吗？**
-没有任何平台能承诺绝对不封号。走官方通道的卡密充值等同于自行订阅，风险低；黑卡低价充值和多人共享账号才是封号的主要来源。
+没有任何平台能承诺绝对不封号，账号可用性还受 OpenAI 规则、账号状态和使用行为影响。不动密码的卡密充值风险相对较低；黑卡低价充值和多人共享账号才是封号的主要来源。
 
 **Q：多久到账？**
 正规平台自动发卡，付款后秒发卡密，兑换后约 20 秒生效。
@@ -116,7 +127,7 @@ OpenAI 的收款由 Stripe 处理，**只接受境外发行的 Visa / Mastercard
 | Gemini Pro | ¥178 起 | Gemini 3.1、NotebookLM、大容量云存储 |
 | SuperGrok | ¥228 起 | Grok 4.6、视频生成 |
 
-入口：[Claude 充值](https://ai66.org/claude.html?utm_source=github2) ｜ [Gemini 充值](https://ai66.org/gemini.html?utm_source=github2) ｜ [Grok 充值](https://ai66.org/grok.html?utm_source=github2)
+入口：[Claude 充值](https://ai66.org/claude?utm_source=github2) ｜ [Gemini 充值](https://ai66.org/gemini?utm_source=github2) ｜ [Grok 充值](https://ai66.org/grok?utm_source=github2)
 
 ---
 
