@@ -15,6 +15,7 @@
 6. [充值失败或没到账怎么办](#六充值失败或没到账怎么办)
 7. [降低账号风险的 6 条做法](#七降低账号风险的-6-条做法)
 8. [常见问题](#八常见问题)
+9. [问题解答](#九问题解答)
 
 ## 一、四种开通方式对比
 
@@ -102,6 +103,14 @@ Codex 不需要单独购买，开通 ChatGPT 对应档位后，用同一个账�
 
 **登录 Codex 要手机号验证怎么办？**
 免费版和部分 Plus 账号首次使用可能需要；Pro 档位一般不需要。
+
+## 九、问题解答
+
+- [Plus 到期或续费失败后怎么恢复会员](plus-daoqi-huifu.md)
+- [之前在 App Store 订阅过，再用卡密充值会冲突吗](app-store-dingyue-chongtu.md)
+- [换邮箱或换账号后，会员能转移吗](huan-youxiang-huiyuan.md)
+- [Plus 怎么升级 Pro，要补多少钱](plus-shengji-pro-bucha.md)
+- [登录 Codex 要手机号验证怎么办](codex-shouji-yanzheng.md)
 
 ---
 
