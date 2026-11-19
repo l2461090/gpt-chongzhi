@@ -1,108 +1,112 @@
-# 2026 最新 ChatGPT Plus / Pro 代充教程与防封号实测指南（含 Codex 开通 · 支付宝 / 微信）
+# ChatGPT 充值与 GPT 代充教程（2026 年 11 月）：国内开通 Plus / Pro / Codex
 
-> 国内怎么开通 ChatGPT Plus、Pro100/200/500 与 Codex？近期网上流传“ChatGPT 开始大量封号”到底怎么回事？本文整理 **2026 年 11 月最新实测可用充值方案** 与 **课题组几十号人实测未中招的 6 条防封号规范**（附 Claude、Gemini 4 与 Grok 4.7）——无需海外信用卡，支付宝/微信付款，全程不碰密码。
->
-> 🕐 **最后更新：2026 年 11 月 17 日**（已同步 11 月封号潮排查规范、Claude 11/5 风控变化及最新模型/额度）
->
-> 📌 持续更新，建议 **Star ⭐ 收藏**，方便随时查阅最新价格、防封号规范与排查方法。
+国内用户想开通 ChatGPT Plus、Pro 或 Codex，常卡在两件事：官网结账需要境外银行卡；网上代充渠道多，不知道怎么判断靠不靠谱。本教程按“先选方式 → 再下单 → 最后核对到账”的顺序整理，适合第一次充值和准备续费、升级的用户。
 
----
+> 最后核对：2026-11-19。价格与可购套餐变化较快，付款前以商品页为准。
+> 本仓库为独立中文教程，与 OpenAI 无隶属关系。欢迎提 Issue 补充你遇到的情况。
 
 ## 目录
 
-- [一、为什么国内无法直接订阅海外 AI 会员](#一为什么国内无法直接订阅海外-ai-会员)
-- [二、2026 年 11 月四大平台套餐与参考价（实时核对）](#二2026-年-11-月四大平台套餐与参考价实时核对)
-- [三、ChatGPT Plus / Codex 卡密自助开通步骤](#三chatgpt-plus--codex-卡密自助开通步骤)
-- [四、近期 ChatGPT 封号原因与 6 条安全使用规范（实测避坑）](#四近期-chatgpt-封号原因与-6-条安全使用规范实测避坑)
-- [五、Claude 11 月 5 日风控与 Claude Code CLI 避坑说明](#五claude-11-月-5-日风控与-claude-code-cli-避坑说明)
-- [六、常见问题 FAQ](#六常见问题-faq)
-- [七、站内攻略与排查入口](#七站内攻略与排查入口)
+1. [四种开通方式对比](#一四种开通方式对比)
+2. [Plus、Pro、Codex 怎么选](#二pluspro-codex-怎么选)
+3. [代充下单与兑换步骤](#三代充下单与兑换步骤)
+4. [付款后怎么确认真的开通了](#四付款后怎么确认真的开通了)
+5. [已有会员：续费、升级与剩余天数](#五已有会员续费升级与剩余天数)
+6. [充值失败或没到账怎么办](#六充值失败或没到账怎么办)
+7. [降低账号风险的 6 条做法](#七降低账号风险的-6-条做法)
+8. [常见问题](#八常见问题)
 
----
+## 一、四种开通方式对比
 
-## 一、为什么国内无法直接订阅海外 AI 会员
-
-OpenAI、Anthropic、Google 与 xAI 的官方订阅通常需要两项条件：
-
-1. **境外发行的信用卡**（Visa / Mastercard / American Express），国内储蓄卡、银联卡及绝大多数双币卡会被拒绝；
-2. **账号与节点地区的风控匹配**（尤其是 Anthropic 在 11 月 5 日大幅收紧了 iOS 内购与常规风控）。
-
-因此国内用户常用 **卡密式代充**（OpenAI / Gemini / Grok 适用）或 **独立实体卡成品号**（Claude 风控期推荐）来绕开支付墙。
-
----
-
-## 二、2026 年 11 月四大平台套餐与参考价（实时核对）
-
-| 平台 | 档位 | 参考价 | 核心权益与适用场景 |
+| 方式 | 需要什么 | 优点 | 需要注意 |
 |---|---|---|---|
-| **ChatGPT / Codex** | **Plus** | ¥178 起/月 | GPT-6.1 Sol / Terra、Images 2.6、Advanced Voice、Codex 助手 |
-| **ChatGPT / Codex** | **Pro100** | ¥880 起/月 | **10 倍 Pro 额度**，GPT-6.1 / GPT-6 Astra Pro 推理与 Codex |
-| **ChatGPT / Codex** | **Pro200** | ¥1680 起/月 | **20 倍 Pro 额度**，最高优先级，重度科研与开发 |
-| **ChatGPT / Codex** | **Pro500** | ¥4080 起/月 | **50 倍 Pro 额度**，旗舰重度用量与团队级工作流 |
-| **Claude（成品号）** | **Claude Pro** | **¥400 / 月** | 美国实体卡一卡一充独立成品号（含初始邮箱），Opus 5.5 / Sonnet 5.5 + Claude Code（不含 Fable 5.2） |
-| **Claude（成品号）** | **Claude Max / Ultra** | **实时报价** | 分别享 **5 倍 / 20 倍**配额，包含 **Fable 5.2** + Opus 5.5 / Sonnet 5.5 + Claude Code |
-| **Gemini** | **Gemini Pro** | ¥178 起 | Gemini 4 Argon / Hydrogen、Nano Banana 2.1、NotebookLM Plus、云存储 |
-| **Gemini** | **Ultra 100 刀版 / 旗舰版** | **¥880 / 月 · ¥1800 / 月** | Gemini 4 Carbon、Deep Think（旗舰版）、Veo 3.1 与更高用量上限 |
-| **xAI Grok** | **Premium / Super / Ultra** | **¥228 / ¥880 / ¥1680** | Grok 4.7 + Grok Imagine + Grok Bot + Cursor 第一方编程 + X 平台权益（4× / 15× / 50× 共享周额度） |
+| 官网直接订阅 | 境外发行的 Visa / Mastercard | 官方直接扣费 | 国内银联卡、多数双币卡会被拒 |
+| 应用商店订阅（iOS / Google Play） | 外区 Apple ID 或 Google 账号 + 当地付款方式 | 续订、退订在商店里管理 | 需要礼品卡或外区付款，价格按地区 |
+| 虚拟信用卡 | 开卡费 + 充值手续费 | 自己掌控订阅 | 部分卡段被拒付，续费时可能失败 |
+| 卡密代充（第三方） | 支付宝 / 微信 | 不需要外币卡，开到自己的账号 | 要核对服务方、交付方式和退款条件 |
 
-> 查看完整横向对照表：**[2026 AI 会员价格总表](https://ai66.org/ai-huiyuan-jiage?utm_source=github&utm_medium=referral)** · 消费可申请开具增值税发票，充值不成功全额退款。
+**判断一个代充渠道是否靠谱，下单前看这几点：**
+
+- 开到**你自己的**账号，不要求你提供密码；
+- 商品页写清楚适用账号、已有订阅怎么处理、多久到账；
+- 有明确的失败退款规则和售后联系方式；
+- 价格明显低于官方（比如 Plus 远低于 ¥140）的，警惕技术漏洞充值或 Team 子账号，这类最容易被集中封禁。
+
+## 二、Plus、Pro、Codex 怎么选
+
+Codex 不需要单独购买，开通 ChatGPT 对应档位后，用同一个账号登录 Codex CLI / IDE 扩展即可使用对应额度。
+
+| 档位 | 官方价 | 适合谁 |
+|---|---|---|
+| Plus | $20/月 | 日常对话、写作、轻中度写代码 |
+| Pro 5x（Pro100） | $100/月 | 每天高频用 Codex，Plus 额度经常不够 |
+| Pro 20x（Pro200） | $200/月 | 重度 Agent、长任务、多项目并行 |
+| Pro 50x（Pro500） | 以官网结账页为准 | 极高频开发或团队级工作流 |
+
+建议：先用 Plus，**确实经常用完额度**再升档。Plus 与 Pro 的详细区别可参考 [ChatGPT Plus 和 Pro 对比](https://ai66.org/chatgpt-plus-vs-pro)。
+
+## 三、代充下单与兑换步骤
+
+以卡密自助代充为例（不同商家流程略有差异）：
+
+1. **确认账号**：用邮箱登录你自己的 ChatGPT 账号，查看当前是免费版还是已有会员、到期日是哪天。
+2. **选商品**：选和你需求一致的档位，看清商品说明里的适用条件。
+3. **付款取卡密**：支付宝或微信付款后，订单页会显示卡密和对应教程。保存订单号。
+4. **兑换**：按该商品的教程在官方页面完成兑换，一般几十秒内生效。卡密有时效，收到后尽快兑换。
+
+参考价（2026-11，以商品页为准）：Plus ¥178 起 / Pro100 ¥880 起 / Pro200 ¥1680 起 / Pro500 ¥4080 起。
+
+## 四、付款后怎么确认真的开通了
+
+“付款成功”和“会员生效”是两件事，按顺序核对：
+
+1. ChatGPT 网页：左下角头像 → 设置 → 账户（Account），看套餐名称和续订日期；
+2. 模型选择器里能看到对应档位的模型；
+3. 用 Codex 的话：终端执行 `codex login status`，确认登录的是同一个邮箱；会话里输入 `/status` 查看额度。
+
+如果网页显示已开通，但 Codex 仍提示额度不足，最常见的原因是 CLI 登录成了另一个账号，或者环境变量里设置了 `OPENAI_API_KEY`，导致走了 API 单独计费。逐项排查见 [Codex 权益排查清单](https://ai66.org/codex-login-check)。
+
+## 五、已有会员：续费、升级与剩余天数
+
+- **不要默认剩余天数可以叠加或折算**。下单前先确认商品对“已有订阅”的处理方式。
+- 官网升级 Plus → Pro 时，应付金额按剩余天数计算；第三方代充通常按目标档整档办理。
+- 如果之前在 App Store 订阅过，要先在 App Store 里取消原订阅，避免重复扣费或冲突。
+
+## 六、充值失败或没到账怎么办
+
+1. 截图保存：订单号、付款时间、兑换时的报错原文；
+2. 不要立刻重复下单，先联系订单售后核对状态；
+3. 区分三种情况：**未交付**（应退款）、**已交付但兑换失败**（核对账号与卡密）、**已生效后提前失效**（按商家条款处理未履行部分）。
+
+## 七、降低账号风险的 6 条做法
+
+1. 不使用技术漏洞充值、来路不明的低价 Team 子账号；
+2. 不把网页或订阅额度做成反代接口（例如 Sub2API 一类中转）对外调用；
+3. 不与他人共用账号，避免多地多设备同时登录；
+4. 不生成违法违规内容；
+5. Pro 用户不要转卖官方赠送的 API 额度；
+6. 尽量固定在一个支持地区的稳定网络环境使用，不要频繁跨地区切换 IP。
+
+这些做法能避开最常见的触发原因，但任何充值方式都无法保证账号永远不被审核。遇到限制时保留错误提示，通过官方渠道申诉。
+
+## 八、常见问题
+
+**代充需要给账号密码吗？**
+不需要。正规卡密方式是你自己登录账号兑换，任何要求你提供密码或登录会话的渠道都不要用。
+
+**可以开发票吗？**
+部分商家支持。以 Ai66 为例，下单后凭订单号联系客服申请。
+
+**Plus 能直接升级 Pro 吗？免费版能直接买 Pro 吗？**
+可以。免费版不必先买 Plus。参考 [免费版升级 Pro 说明](https://ai66.org/blog/chatgpt-mianfei-shengji-pro)。
+
+**登录 Codex 要手机号验证怎么办？**
+免费版和部分 Plus 账号首次使用可能需要；Pro 档位一般不需要。
 
 ---
 
-## 三、ChatGPT Plus / Codex 卡密自助开通步骤
+本教程的价格与流程示例来自 [Ai66.org](https://ai66.org/?utm_source=github&utm_medium=readme&utm_campaign=seo_2026q4)。客服微信：Jumper9705（备用 Jumper97051）。
 
-> 演示入口：**[Ai66.org ChatGPT Plus 充值与购买](https://ai66.org/chatgpt-plus-chongzhi?utm_source=github&utm_medium=referral)** —— 支付宝/微信付款，网页下单后自动发货卡密和教程，全程不碰密码。
-
-1. **确认账号可正常登录**：用邮箱注册或登录你自己的 ChatGPT 账号，确认现有会员是否已到期。
-2. **网页下单获取卡密**：在商城选择对应套餐（如 Plus / Pro100 / Pro200 / Pro500），付款后网页自动显示卡密和图文教程。
-3. **兑换生效（约 20 秒）**：按教程在官方充值页兑换，**卡密有时效性，收到后 24 小时内需兑换**。
-4. **核对权益**：在 ChatGPT 设置页确认 Plus/Pro 标识；如需在终端或 IDE 使用 Codex，可直接参照 **[Codex 登录与权益排查清单](https://ai66.org/codex-login-check?utm_source=github&utm_medium=referral)**。
-
----
-
-## 四、近期 ChatGPT 封号原因与 6 条安全使用规范（实测避坑）
-
-最近网上流传“ChatGPT 开始大量封号”，但我们课题组几十号人高频使用至今都还没碰到过。为了以防万一，整理了当前最容易触发封号的 6 个核心原因与使用规范：
-
-1. **避开技术漏洞充值与低价 Team 账号**：通过技术漏洞、黑卡代充或来路不明的拼车 Team 子账号，是近期大量网友被集中封号的核心原因（选择 **[Ai66.org](https://ai66.org/gpt-daichong?utm_source=github&utm_medium=referral)** 这类正规卡密开到自己原账号的，可避开此风险）。
-2. **禁止反代！！！（例如 Sub2API 等中转反代）**：把网页或订阅额度拿去做反代接口调用，是封号最常见的原因之一，务必避免。
-3. **不要与他人共用账户**：多人异地多设备同时登录一个账号极易触发风控。
-4. **不要生成涉政、色情、暴力、侵权等违法违规内容**：红线内容会直接触发安全审计封禁。
-5. **Pro 用户不要出售官方赠送的免费 API 额度**：接盘方往往拿去跑反代或模型蒸馏，一旦被识别会直接连坐主账号封号。
-6. **尽可能固定一个 IP 地区使用**：保持稳定干净的节点地区，不要短时间内频繁跨国家/地区来回切换 IP。
-
-> **实测结论**：只要避开上述 6 条红线、正规充值并正常使用，实际封号概率极低（远远小于 1%）。更多安全细节可看 **[GPT 代充安全须知](https://ai66.org/gpt-daichong?utm_source=github&utm_medium=referral)**。
-
----
-
-## 五、Claude 11 月 5 日风控与 Claude Code CLI 避坑说明
-
-⚠️ **重点提醒（2026 年 11 月实况）**：
-
-- 受 **11 月 5 日 Anthropic 风控加剧**影响，使用 iOS 卡密/内购代充 Claude 会员必出 KYC 甚至不到账。目前 **[Ai66 Claude 专页](https://ai66.org/claude?utm_source=github&utm_medium=referral)** 已暂停 iOS 卡密自助充值，后续等待通知。
-- **当前最优解**：改用 **美国实体卡一卡一充独立成品号**（一人一号带初始邮箱，充值不弹 KYC）。实测存活率最高，后续触发门户（Portal）KYC 的概率远低于“过了充值 KYC 再用 iOS 卡密充值的账号”。
-- 若你主要用于终端跑 **Claude Code CLI**，建议先阅读：**[Claude Code CLI 国内开通与 Max / Ultra 额度实战指南](https://ai66.org/blog/claude-code-cli-zhinan?utm_source=github&utm_medium=referral)**，按任务量在 Pro / Max / Ultra（含 Fable 5.2）间选型。
-
----
-
-## 六、常见问题 FAQ
-
-- **Q：正规卡密充值会导致封号吗？**
-  A：正规充值，封号概率很低（课题组几十号人按规范使用至今未见中招）。技术漏洞充值、Team 黑号、反代（如 Sub2API）和共享账号才是封号的主要来源。
-- **Q：已有 ChatGPT Plus 没到期，能直接叠加或续费吗？**
-  A：不要默认剩余天数能叠加或折抵，下单前先核对 **[Plus 续费核对清单](https://ai66.org/chatgpt-plus-xufei?utm_source=github&utm_medium=referral)**。
-- **Q：可以开发票吗？**
-  A：消费可申请开具增值税发票，下单后联系客服微信（`Jumper9705` / 备用 `Jumper97051`）提交开票信息即可。
-
----
-
-## 七、站内攻略与排查入口
-
-- 🏠 **一站式 AI 会员首页**：https://ai66.org/?utm_source=github&utm_medium=referral
-- 🤖 **ChatGPT / Codex 专页**：https://ai66.org/chatgpt?utm_source=github&utm_medium=referral
-- 🧠 **Claude 成品号与实时报价**：https://ai66.org/claude?utm_source=github&utm_medium=referral
-- 🛡️ **Claude 11/5 风控与 KYC 解析**：https://ai66.org/blog/claude-kyc-chengpinhao?utm_source=github&utm_medium=referral
-- 💻 **Claude Code CLI 实战指南**：https://ai66.org/blog/claude-code-cli-zhinan?utm_source=github&utm_medium=referral
-- ✨ **Gemini 4（Pro / Ultra ¥880·¥1800）**：https://ai66.org/gemini?utm_source=github&utm_medium=referral
-- ⚡ **Grok 4.7（含 Bot / Cursor / X）**：https://ai66.org/grok?utm_source=github&utm_medium=referral
-- 📚 **全部充值与排障攻略目录**：https://ai66.org/blog/?utm_source=github&utm_medium=referral
+更新记录
+- 2026-11-19：按“方式对比 → 下单 → 到账核对 → 续费 → 失败处理”重写，删去无法核验的统计说法，精简外部链接。
+- 2026-11-17：同步 11 月套餐、Claude 风控变化与防封号规范。
